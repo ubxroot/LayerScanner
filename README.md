@@ -75,16 +75,6 @@ LayerScanner: Scanning http://example.onion/ (Depth: 1)
   [dim]  Checking common path: http://example.onion/sitemap.xml...[/dim]
   [dim]  Path /sitemap.xml not found (Status: 404).[/dim]
 
-## --- Scan Results ---
-# Findings for http://example.onion/
-┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ Type                  ┃ URL                                                           ┃ Status ┃ Title/Header          ┃ Description                                           ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╕━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ Site Info             │ http://example.onion/                                         │ 200    │ Example Onion Site    │ Initial site information.                             │
-└───────────────────────┴───────────────────────────────────────────────────────────────┴────────┴───────────────────────┴───────────────────────────────────────────────────────┘
-
-LayerScanner scan complete.
-
 ## Development & Contributions
 LayerScanner is an open-source project, and contributions are highly welcome! If you find bugs, have feature requests, or want to contribute code, please feel free to:
 
