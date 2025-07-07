@@ -47,22 +47,22 @@ To perform a basic scan of an .onion URL with a default crawl depth of 1:
 
 ./layerscanner.py scan http://example.onion/
 
-Scan with Increased Depth and Verbose Output:
-To crawl internal links up to 2 hops deep and see detailed logging:
+## Scan with Increased Depth and Verbose Output:
+# To crawl internal links up to 2 hops deep and see detailed logging:
 
 ./layerscanner.py scan http://example.onion/ --depth 2 --verbose
 
-Output Results as JSON:
+# Output Results as JSON:
 To get the scan results in JSON format, useful for scripting or integration:
 
 ./layerscanner.py scan http://example.onion/ --output json
 
-Customizing Configuration:
+## Customizing Configuration:
 The first time you run layerscanner.py, a default configuration file will be created at ~/.layerscanner_config.json. You can edit this file to customize Tor proxy settings, scan timeouts, or add/modify common paths to check:
 
 nano ~/.layerscanner_config.json
 
-📊 Example Output (Human Readable Table)
+## 📊 Example Output (Human Readable Table)
 LayerScanner: Scanning http://example.onion/ (Depth: 1)
 
   [+] Initial connection successful. HTTP Status: 200
@@ -75,8 +75,8 @@ LayerScanner: Scanning http://example.onion/ (Depth: 1)
   [dim]  Checking common path: http://example.onion/sitemap.xml...[/dim]
   [dim]  Path /sitemap.xml not found (Status: 404).[/dim]
 
---- Scan Results ---
-Findings for http://example.onion/
+## --- Scan Results ---
+# Findings for http://example.onion/
 ┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ Type                  ┃ URL                                                           ┃ Status ┃ Title/Header          ┃ Description                                           ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╕━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
@@ -85,12 +85,12 @@ Findings for http://example.onion/
 
 LayerScanner scan complete.
 
-Development & Contributions
+## Development & Contributions
 LayerScanner is an open-source project, and contributions are highly welcome! If you find bugs, have feature requests, or want to contribute code, please feel free to:
 
-Open an issue
+## Open an issue
 
 Submit a pull request
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
