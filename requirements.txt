@@ -1,0 +1,5 @@
+typer
+rich
+requests[socks]
+pyfiglet
+beautifulsoup4 # For HTML parsing
